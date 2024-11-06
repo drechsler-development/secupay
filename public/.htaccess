@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Rewrite /success to /success.php while preserving query parameters
+RewriteRule ^success$ success.php [QSA,L]
+RewriteRule ^cancel$ cancel.php [QSA,L]
+RewriteRule ^failure$ failure.php [QSA,L]
+RewriteRule ^failed$ failure.php [QSA,L]
