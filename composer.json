@@ -1,4 +1,17 @@
 {
+    "name": "drechsler-development/secupay",
+    "type": "library",
+    "description": "provides classes and methods to offer payment via the secupay gateway",
+    "keywords": ["payment","secupay"],
+    "homepage": "https://github.com/drechsler-development/secupay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronny Drechsler-Hildebrandt",
+            "email": "info@drechsler-development.de",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "DD\\": "src/DD"
